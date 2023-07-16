@@ -10,7 +10,7 @@ const mailOptions = {
     from: 'ananthan.s1969@gmail.com',
     to: 'Password',
     subject: 'Hello Friends!',
-    text: 'Hey friends, this is anemail sent using nodemailer.'
+    text: 'Hey friends, this is an email sent using nodemailer.'
   };
   
   transporter.sendMail(mailOptions, (error, info) => {
